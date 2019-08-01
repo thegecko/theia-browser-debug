@@ -1,0 +1,32 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@theia/core": "0.9.0",
+    "@theia/debug": "0.9.0",
+    "@theia/debug-nodejs": "0.9.0",
+    "@theia/file-search": "0.9.0",
+    "@theia/json": "0.9.0",
+    "@theia/markers": "0.9.0",
+    "@theia/messages": "0.9.0",
+    "@theia/navigator": "0.9.0",
+    "@theia/preferences": "0.9.0",
+    "@theia/search-in-workspace": "0.9.0",
+    "@theia/terminal": "0.9.0",
+    "@theia/typescript": "0.9.0",
+    "mock-debug": "0.9.0",
+    "typescript": "next"
+  },
+  "devDependencies": {
+    "@theia/cli": "0.9.0"
+  },
+  "scripts": {
+    "prepare": "theia build --mode development",
+    "start": "theia start",
+    "watch": "theia build --watch --mode development"
+  },
+  "theia": {
+    "target": "browser"
+  }
+}
