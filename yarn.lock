@@ -318,6 +318,35 @@
     ps-list "5.0.1"
     vscode-debugprotocol "^1.32.0"
 
+"@theia/debug@0.9.0", "@theia/debug@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@theia/debug/-/debug-0.9.0.tgz#7c3ebab1e9166409a41de4409785bc7f8909f4ed"
+  integrity sha512-u8twlUu5RhcBLOnDiiIuhqmthXymBzIvU5vU2RjgraoULL45l86tkFzqE1f3TAV+yidWhB+A5MHs+WjPGyqR2g==
+  dependencies:
+    "@theia/console" "^0.9.0"
+    "@theia/core" "^0.9.0"
+    "@theia/editor" "^0.9.0"
+    "@theia/filesystem" "^0.9.0"
+    "@theia/json" "^0.9.0"
+    "@theia/languages" "^0.9.0"
+    "@theia/markers" "^0.9.0"
+    "@theia/monaco" "^0.9.0"
+    "@theia/output" "^0.9.0"
+    "@theia/preferences" "^0.9.0"
+    "@theia/process" "^0.9.0"
+    "@theia/terminal" "^0.9.0"
+    "@theia/userstorage" "^0.9.0"
+    "@theia/variable-resolver" "^0.9.0"
+    "@theia/workspace" "^0.9.0"
+    "@types/p-debounce" "^1.0.1"
+    jsonc-parser "^2.0.2"
+    mkdirp "^0.5.0"
+    p-debounce "^2.1.0"
+    requestretry "^3.1.0"
+    tar "^4.0.0"
+    unzip-stream "^0.3.0"
+    vscode-debugprotocol "^1.32.0"
+
 "@theia/editor@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@theia/editor/-/editor-0.9.0.tgz#ca00263ce823d28bd3c965415617d918058f27c9"
@@ -1034,9 +1063,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.2.0:
   version "6.2.1"
