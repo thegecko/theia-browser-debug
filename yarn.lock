@@ -318,6 +318,35 @@
     ps-list "5.0.1"
     vscode-debugprotocol "^1.32.0"
 
+"@theia/debug@0.9.0", "@theia/debug@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@theia/debug/-/debug-0.9.0.tgz#7c3ebab1e9166409a41de4409785bc7f8909f4ed"
+  integrity sha512-u8twlUu5RhcBLOnDiiIuhqmthXymBzIvU5vU2RjgraoULL45l86tkFzqE1f3TAV+yidWhB+A5MHs+WjPGyqR2g==
+  dependencies:
+    "@theia/console" "^0.9.0"
+    "@theia/core" "^0.9.0"
+    "@theia/editor" "^0.9.0"
+    "@theia/filesystem" "^0.9.0"
+    "@theia/json" "^0.9.0"
+    "@theia/languages" "^0.9.0"
+    "@theia/markers" "^0.9.0"
+    "@theia/monaco" "^0.9.0"
+    "@theia/output" "^0.9.0"
+    "@theia/preferences" "^0.9.0"
+    "@theia/process" "^0.9.0"
+    "@theia/terminal" "^0.9.0"
+    "@theia/userstorage" "^0.9.0"
+    "@theia/variable-resolver" "^0.9.0"
+    "@theia/workspace" "^0.9.0"
+    "@types/p-debounce" "^1.0.1"
+    jsonc-parser "^2.0.2"
+    mkdirp "^0.5.0"
+    p-debounce "^2.1.0"
+    requestretry "^3.1.0"
+    tar "^4.0.0"
+    unzip-stream "^0.3.0"
+    vscode-debugprotocol "^1.32.0"
+
 "@theia/editor@^0.9.0":
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/@theia/editor/-/editor-0.9.0.tgz#ca00263ce823d28bd3c965415617d918058f27c9"
@@ -5429,9 +5458,9 @@ https-browserify@^1.0.0:
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
 https-proxy-agent@^2.2.1:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.2.tgz#271ea8e90f836ac9f119daccd39c19ff7dfb0793"
-  integrity sha512-c8Ndjc9Bkpfx/vCJueCPy0jlP4ccCCSNDp8xwCZzPjKJUm+B+u9WX2x98Qx4n1PiMNTWo3D7KK5ifNV/yJyRzg==
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/https-proxy-agent/-/https-proxy-agent-2.2.4.tgz#4ee7a737abd92678a293d9b34a1af4d0d08c787b"
+  integrity sha512-OmvfoQ53WLjtA9HeYP9RNrWMJzzAz1JGaSFr1nijg0PVR1JaD/xbJq1mdEIIlxGpXp9eSe/O2LgU9DJmTPd0Eg==
   dependencies:
     agent-base "^4.3.0"
     debug "^3.1.0"
