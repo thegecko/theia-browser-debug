@@ -6,7 +6,7 @@
     "watch": "lerna run watch --parallel"
   },
   "dependencies": {
-    "electron": "^3.0.10"
+    "electron": "^11.5.0"
   },
   "devDependencies": {
     "@types/chai": "^4.0.1",
